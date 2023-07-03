@@ -1,0 +1,647 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}body{
+	font-family: 'Montserrat', sans-serif;
+}
+.container-fluid{
+	width: 100%;
+	float: left;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+.row{
+	width: 100%;
+	float: left;
+    display: flex;
+}
+.col{
+	width: 100%;
+	float: left;
+	
+}
+.header{
+	width: 100%;
+	float: left;
+	background: #070808;
+}
+
+.header-content{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.header-icon{
+	font-size: 20px;
+	float: left;
+	color: white;
+	padding: 40px 0px;
+}
+.header-icon i{
+	padding: 0 10px;
+}
+.header-icon i:hover{
+	transform: rotateY(180deg);
+	transition: all .4s ease-out 0s;
+	color: #e5bf4a;
+}
+.header-content img{
+	font-size: 30px;
+	font-weight: ;
+	color: ;
+	float: left;
+	margin-left: 40px;
+}
+.header-content .btn{
+	font-size: 20px;
+	font-weight: 400;
+	padding: 10px 20px;
+	border: 1px solid #E5BF4A;
+	background: none;
+	color: #E5BF4A;
+	float: right;
+}
+.menubar{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.header .menubar ul li {
+	font-size: 15px;
+    padding: 10px 10px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+.header .menubar a{
+	 text-decoration: none;
+	 color: white;
+}
+.background{
+	width: 100%;
+	float: left;
+	color: red;
+}
+.background #image1{
+	width: 100%;
+	float: left;
+	background-image: url(../image/bg1.webp);
+	background-size: cover;
+	height: 200px;
+}
+.background-content{
+	width: 100%;
+	float: left;
+	padding: 100px 0;
+}
+.background-content h1{
+	font-size: 50px;
+	font-weight: 250;
+	color: white;
+	margin-bottom: 30px;
+}
+.item{
+	width: 100%;
+	float: left;
+	background: #070808;
+}
+.item-content{
+	width: 100%;
+	float: left;
+	padding: 0px 10px;
+	margin-top: 50px;
+}
+.item-content img{
+	width: 100%;
+	float: left;
+	padding: 0px 0px;
+	margin-bottom: 20px;
+}
+.item-content h1{
+ font-size: 18px;
+ color: white;
+ font-weight: 400;
+ margin-bottom: px;
+}
+.item-content p{
+	font-size: 18px;
+	color: #E5BF4A;
+	font-weight: 400;
+	margin-top: 10px;
+}
+.item-content1{
+	width: 100%;
+	float: left;
+	padding: 20px 10px;
+}
+.item-content1 img{
+	width: 100%;
+	float: left;
+	padding: 0px 0px;
+	margin-bottom: 20px;
+}
+.item-content1 h1{
+ font-size: 18px;
+ color: white;
+ font-weight: 400;
+ margin-bottom: px;
+}
+.item-content1 p{
+	font-size: 18px;
+	color: #E5BF4A;
+	font-weight: 400;
+	margin-top: 10px;
+}
+.instagram{
+	width: 100%;
+	float: left;
+	background: #070808;
+	padding: 50px 0;
+}
+.instagram-heading{
+	width: 100%;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+.instagram-heading h1{
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+	margin-bottom: 15px;
+}
+.instagram-heading .btn{
+	font-size: 15px;
+	padding: 10px 25px;
+	border: 1px solid orange;
+	color: orange;
+	background: #070808;
+	margin-bottom: 20px;
+}
+.instagram-heading i{
+	position: absolute;
+	top: 53%;
+	right: 53%;
+	font-size: 15px;
+	color: orange;
+	margin-bottom: 20px;
+}
+.instagram-image{
+	width: 100%;
+	float: left;
+	padding: 0px 10px;
+}
+.instagram-image img{
+	width: 100%;
+	float: left;
+	display: flex;
+}
+.footer{
+	width: 100%;
+	float: left;
+	background: #070808;
+	padding: 50px 0;
+}
+.footer-heading{
+	width: 100%;
+	float: left;
+}
+.footer-content hr{
+	width: 20%;
+	color: orange;
+    margin-top: 10px;
+}
+.footer-heading img{
+	width: 40%;
+	float: left;
+}
+.footer-heading ul li{
+	font-size: 15px;
+	float: ;
+	display: inline-block;
+	color: white;
+	padding: 30px 15px;
+}
+.footer-heading ul li:hover{
+	color: orange;
+}
+.footer-content{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	padding-right: 0px;
+}
+.footer-content p{
+	font-size: 15px;
+	color: white;
+	margin-top: 20px;
+}
+.icon{
+	width: 100%;
+	float: left;
+	position: relative;
+	margin-top: 20px;
+}
+.icon .fa-facebook{
+	font-size: 13px;
+	color: white;
+	position: absolute;
+	    top: 35%;
+	    left: 30%;
+	    margin-left: 6px;	
+}
+.icon .fa-facebook:hover{
+	color: orange;
+}
+.icon .fa-instagram{
+	font-size: 13px;
+	color: white;
+	position: absolute;
+	    top: 35%;
+	    left: 0%;
+    margin-left: 6px;	
+}
+.icon .fa-instagram:hover{
+	color: orange;
+}
+.icon .fa-twitter{
+	font-size: 13px;
+	color: white;
+	position: absolute;
+	    top: 35%;
+	   left: 60%;
+    margin-left: 6px;	
+}
+.icon .fa-twitter:hover{
+	color: orange;
+}
+.icon .btn{
+	font-size: 15px;
+	color: white;
+	padding: 13px 20px;
+	background: #070808;
+	border: 1px solid #80808096;
+}
+.footer hr{
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+.icon .btn:hover{
+	color: orange;
+	border: 1px solid orange;
+
+}
+.footer-content h1{
+	font-size: 17px;
+	font-weight: 300;
+	color: orange;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.footer-content i{
+	font-size: 20px;
+	color: white;
+	margin-top: 20px;
+}
+.footer-content span{
+	font-size: 13px;
+	color: white;
+}
+#space{
+	padding: 10px 40px;
+}
+@media only screen and (max-width: 600px){
+	body{
+		background: red;
+		margin: 0;
+		padding: 0;
+	}
+	.container-fluid{
+		width: 100%;
+	}
+	.container{
+		width: 100%;
+	}
+	.row{
+		width: 100%;
+		display: flex;
+	}
+	.col{
+		width: 100%;
+	}
+	.header{
+		width: 100%;
+	}
+	.header-content{
+		width: 100%;
+	}
+	.header-icon{
+		font-size: 15px;
+	}
+	.header-icon i{
+		padding: 0px;
+	}
+	.menubar{
+		width: 100%;
+	}
+	.header .menubar ul li {
+    font-size: 10px;
+    padding: 5px 5px;
+	 }
+	.header-content img{
+		margin-left: 0px;
+	}
+	.header-content .btn{
+		font-size: 10px;
+		padding: 5px 5px;
+	}
+	.background{
+		width: 100%;
+	}
+	.background #image1{
+		width: 100%;
+		height: 100px;
+	}
+	.background-content{
+		width: 100%;
+		padding: 30px 0;
+	}
+	.background-content h1{
+		margin: 0px;
+		font-size: 20px;
+	}
+	.item{
+		width: 100%;
+	}
+	.item-content{
+		width: 100%;
+		margin: 0px;
+	}
+	.item-content img{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.item-content h1{
+      font-size: 10px;
+	}
+	.item-content p{
+		font-size: 10px;
+		margin-top: 5px;
+	}
+	.item-content1{
+		width: 100%;
+		padding: 10px 10px;
+	}
+	.item-content1 img{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.item-content1 h1{
+      font-size: 10px;
+	}
+	.item-content1 p{
+		font-size: 10px;
+		margin-top: 5px;
+	}
+	.instagram{
+		width: 100%;
+		padding: 0px;
+	}
+	.instagram-heading{
+		width: 100%;
+	}
+	.instagram-heading h1 {
+    font-size: 15px;
+    margin-bottom: 5px
+    }
+    .instagram-heading i{
+    	top: 58%;
+    	font-size: 10px;
+    	right: 57%;
+    }
+    .instagram-heading .btn {
+    font-size: 10px;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    }
+	.icon .fa-instagram{
+		top: 15%;
+		left: -3%;
+		font-size: 7px;
+	}
+	.icon .fa-facebook{
+	    top: 15%;
+	    left: 35%;
+	    font-size: 7px;
+	}
+	.icon .fa-twitter{
+      top: 65%;
+      left: -3%;
+      font-size: 7px;
+	}
+	.footer{
+		width: 100%;
+		padding: 10px 0;
+	}
+	.footer-heading{
+		width: 100%;
+	}
+	.footer-heading ul li{
+		font-size: 9px;
+		padding: 10px 1px;
+	}
+	.footer-content{
+		width: 100%;
+		padding: 5px 0px;
+	}
+	.footer-content p{
+		font-size: 10px;
+		margin-top: 0px;
+	}
+	.icon {
+    width: 100%;
+     margin-top: 0px
+    }
+    .icon .btn{
+    	font-size: 12px;
+    	padding: 5px 20px;
+    }
+    .icon .fa-twitter {
+    font-size: 10px;
+    top: 79%;
+    left: 0%;
+    }
+     .icon .fa-facebook {
+    font-size: 10px;
+     top: 45%;
+    left: 0%;
+     }
+     .icon .fa-instagram {
+    font-size: 10px;
+      top: 12%;
+    left: 0%;
+     }
+	.icon .btn{
+		font-size: px;
+		padding: px px;
+		margin-bottom: px;
+	}
+	#space{
+		padding: 0px 10px;
+	}
+	.footer-content{
+		width: 100%;
+		padding: 10px 10px;
+	}
+	.footer-content i{
+		font-size: 15px;
+		margin-top: 10px;
+	}
+	.footer-content h1{
+		font-size: 10px;
+		margin-bottom: 0px;
+		margin-top: 10px;
+	}
+	.footer-content span{
+		font-size: 10px;
+	}
+	.footer hr{
+		margin-top: 0px;
+	}
+}
+@media only screen and (max-width: 768px){
+	body{
+		background: red;
+		margin: 0;
+		padding: 0;
+	}
+	.container-fluid{
+		width: 100%;
+	}
+	.container{
+		width: 100%;
+	}
+	.row{
+		width: 100%;
+		display: flex;
+	}
+	.col{
+		width: 100%;
+	}
+	.header{
+		width: 100%;
+	}
+	.header-content{
+		width: 100%;
+	}
+	.header-content img{
+		margin: 0px;
+	}
+	.instagram{
+		width: 100%;
+		padding: 0px;
+
+	}
+	.instagram-heading{
+		width: 100%;
+	}
+	.instagram-heading i{
+		right: 55%;
+	}
+	.footer{
+		width: 100%;
+	}
+	.footer-heading{
+		width: 100%;
+	}
+	.footer-heading ul li{
+		padding: 0px 8px;
+	}
+	.footer-content{
+		width: 100%;
+		padding: 0px;
+	}
+	.footer hr{
+		margin: 0px;
+	}
+	.icon{
+		width: 100%;
+	}
+	.icon .fa-twitter{
+		top: 70%;
+		left: 2%;
+		margin: 0px;
+	}
+	.icon .fa-facebook{
+	top: 19%;
+	left: 54%;
+	margin: 0px;
+    }
+    .icon .fa-instagram{
+    	top: 19%;
+    	left: 2%;
+    	margin: 0px;
+    }
+}
+@media only screen and (max-width: 992px){
+	body{
+		background: red;
+		margin: 0;
+		padding: 0;
+	}
+	.container-fluid{
+		width: 100%;
+	}
+	.container{
+		width: 100%;
+	}
+	.row{
+		width: 100%;
+		display: flex;
+	}
+	.col{
+		width: 100%;
+	}
+	.header{
+		width: 100%;
+	}
+	.header-content{
+		width: 100%;
+	}
+	.instagram{
+    	width: 100%;
+    }
+    .instagram-heading{
+    	width: 100%;
+    }
+    .instagram-heading i{
+    	top: 52%;
+    	right: 54%;
+    }
+	.footer{
+    	width: 100%;
+    }
+    .icon{
+    	width: 100%;
+    }
+    .icon .fa-twitter{
+    	top: 68%;
+    	left: 2%;
+    	margin: 0px;
+    }
+    .icon .fa-facebook{
+    	top: 19%;
+    	left: 44%;
+    	margin: 0px;
+    }
+    .icon .fa-instagram{
+    	top: 20%;
+    	left: 2%;
+    	margin: 0px;
+    }
+
+}
